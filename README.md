@@ -1,9 +1,9 @@
-# Another-Portfolio
+# Another-Portfolio :point_up:
 This is Challenge 02 Redemption.
 [Click Me to Go to GitHub Page](https://timothylai1121.github.io/Another-Portfolio/)
   > Don't decrease the goal. Increase the effort.
 
-# What is included in my website
+# What is included in my website :mag_right:
 * I included one `@keyframe` to make my `navbar` bounc whenever user hovering.
 * I included one `skewed` method that underline my `navbar`.
 * I included `:root` and `variable` methods in my `style.css`.
@@ -12,5 +12,6 @@ This is Challenge 02 Redemption.
 
 # Implemented from Georgia Tech GitLab :hot_face:
  > I was wondering why did we have to download Screentify in the beginning. Now I understand.
+
 ![This is my preview work](./assets/readme-gifs/Another%20Portfolio.gif)
 
