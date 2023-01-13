@@ -2,6 +2,7 @@
 This is Challenge 02 Redemption.
 [Click Me to Go to GitHub Page](https://timothylai1121.github.io/Another-Portfolio/)
   > Don't decrease the goal. Increase the effort.
+
 Responsive: Desktop & Mobile [^footnote]
 
     [^footnote]: What is the right way to make sure that my css doesn't have to include @media?
