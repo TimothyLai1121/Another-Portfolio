@@ -27,6 +27,11 @@ I realized that my page start to break [^2], when it come to 4K resolution.
 
 ![This is my preview work](./assets/readme-gifs/Another%20Portfolio.gif)
 
+# Extras
+
+Type `find . -name '.DS_Store' -type f -delete` if you have a MacBooks.
+These DS_Stores are like roaches to me. :roll_eyes:
+
 # Final Thoughts :thinking:
 
  > Emoji is still fun right?
