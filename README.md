@@ -15,3 +15,8 @@ This is Challenge 02 Redemption.
 
 ![This is my preview work](./assets/readme-gifs/Another%20Portfolio.gif)
 
+# Final Thoughts :thinking:
+
+ > Emoji is still fun right?
+ > Classes are definitely moving fast even it is a part-time. Can I ask but what is Tailwind & BootStrap? Do you guys encourage to use that to focus more on technical skills like API and Javascript that we are currently learning?
+ > Thank you for visiting my GitHub and GitHub Pages
