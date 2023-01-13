@@ -1,7 +1,7 @@
 # Another-Portfolio :point_up:
 This is Challenge 02 Redemption.
 [Click Me to Go to GitHub Page](https://timothylai1121.github.io/Another-Portfolio/)
-  > Don't decrease the goal. Increase the effort.
+  > Don't decrease the goal. Increase the effort. <
 
 Responsive: Desktop & Mobile [^footnote]
 
