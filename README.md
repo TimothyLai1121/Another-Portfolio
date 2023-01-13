@@ -10,5 +10,6 @@ This is Challenge 02 Redemption.
 * I tested out a `jQuery` method to help out my GitHub Button on `line 238th` if you can give me feedback.
 * Of course, since I know you guys have to grade these challenges, I want you guys to have a chuckle looking at my page
 
-# Implemented from GitLab
-hello
+# Implemented from Georgia Tech GitLab
+
+![This is my preview work](./assets/readme-gifs/Another%20Portfolio.gif)
