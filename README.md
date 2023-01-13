@@ -3,11 +3,17 @@ This is Challenge 02 Redemption.
 [Click Me to Go to GitHub Page](https://timothylai1121.github.io/Another-Portfolio/)
   > Don't decrease the goal. Increase the effort. 
 
-Responsive: Desktop & Mobile [^1]
+# Responsive: Desktop & Mobile
 
-    [^1]: What is the right way to make sure that my css doesn't have to include @media?
-    [^1]: I just realized that since I do have 3 different monitors, depend on my workflow, I usually confused and make my progress slower.
-    [^1]: I realized that my page start to break when it come to 4K resolution. 
+    My page was tested on desktop and laptop device[^1]. I am currently using Mac M1 Pro 14 as my main. 
+
+    I realized that my page start to break [^2], when it come to 4K resolution.
+
+[^1]: What is the right way to make sure that my css doesn't have to include @media?
+[^2]: I just realized that since I do have 3 different monitors, depend on my workflow, I usually confused and make my progress slower.
+    
+    
+
 
 # What is included in my website :mag_right:
 * I included one `@keyframe` to make my `navbar` bounc whenever user hovering.
