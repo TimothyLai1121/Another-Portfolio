@@ -8,4 +8,7 @@ This is Challenge 02 Redemption.
 * I included one `skewed` method that underline my `navbar`.
 * I included `:root` and `variable` methods in my `style.css`.
 * I tested out a `jQuery` method to help out my GitHub Button on `line 238th` if you can give me feedback.
-* 
+* Of course, since I know you guys have to grade these challenges, I want you guys to have a chuckle looking at my page
+
+# Implemented from GitLab
+
