@@ -5,9 +5,9 @@ This is Challenge 02 Redemption.
 
 # Responsive: Desktop & Mobile
 
-    My page was tested on desktop and laptop device[^1]. I am currently using Mac M1 Pro 14 as my main. 
+My page was tested on desktop and laptop device[^1]. I am currently using Mac M1 Pro 14 as my main. 
 
-    I realized that my page start to break [^2], when it come to 4K resolution.
+I realized that my page start to break [^2], when it come to 4K resolution.
 
 [^1]: What is the right way to make sure that my css doesn't have to include @media?
 [^2]: I just realized that since I do have 3 different monitors, depend on my workflow, I usually confused and make my progress slower.
