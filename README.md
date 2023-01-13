@@ -1,13 +1,13 @@
 # Another-Portfolio :point_up:
 This is Challenge 02 Redemption.
 [Click Me to Go to GitHub Page](https://timothylai1121.github.io/Another-Portfolio/)
-  > Don't decrease the goal. Increase the effort. <
+  > Don't decrease the goal. Increase the effort. 
 
-Responsive: Desktop & Mobile [^footnote]
+Responsive: Desktop & Mobile [^1]
 
-    [^footnote]: What is the right way to make sure that my css doesn't have to include @media?
-    [^footnote]: I just realized that since I do have 3 different monitors, depend on my workflow, I usually confused and make my progress slower.
-    [^footnote]: I realized that my page start to break when it come to 4K resolution. 
+    [^1]: What is the right way to make sure that my css doesn't have to include @media?
+    [^1]: I just realized that since I do have 3 different monitors, depend on my workflow, I usually confused and make my progress slower.
+    [^1]: I realized that my page start to break when it come to 4K resolution. 
 
 # What is included in my website :mag_right:
 * I included one `@keyframe` to make my `navbar` bounc whenever user hovering.
