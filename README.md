@@ -2,6 +2,11 @@
 This is Challenge 02 Redemption.
 [Click Me to Go to GitHub Page](https://timothylai1121.github.io/Another-Portfolio/)
   > Don't decrease the goal. Increase the effort.
+Responsive: Desktop & Mobile [^footnote]
+
+    [^footnote]: What is the right way to make sure that my css doesn't have to include @media?
+    [^footnote]: I just realized that since I do have 3 different monitors, depend on my workflow, I usually confused and make my progress slower.
+    [^footnote]: I realized that my page start to break when it come to 4K resolution. 
 
 # What is included in my website :mag_right:
 * I included one `@keyframe` to make my `navbar` bounc whenever user hovering.
@@ -18,5 +23,7 @@ This is Challenge 02 Redemption.
 # Final Thoughts :thinking:
 
  > Emoji is still fun right?
+
  > Classes are definitely moving fast even it is a part-time. Can I ask but what is Tailwind & BootStrap? Do you guys encourage to use that to focus more on technical skills like API and Javascript that we are currently learning?
+
  > Thank you for visiting my GitHub and GitHub Pages
