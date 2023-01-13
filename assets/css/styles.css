@@ -1,0 +1,348 @@
+/* variable bounces for navigation a li: hover later */
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
+/* end of variables */
+/* Palettes below */
+/* Call it 5 Shades of Grey */
+:root {
+    --darker: #111;
+    --dark: #333;
+    --neutral: #555;
+    --light: #777;
+    --lighter: #999;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.gird-box {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.4fr 1.9fr 1.5fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "article article article"
+    "article article article"
+    "footer footer footer";
+}
+
+.header { 
+    grid-area: header;
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: var(--darker);
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    /* use this background-color to check if inner_header css work */
+    /*remove after */
+    /*
+    background-color: aqua;
+    */
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    /* font-family: */
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+
+/*
+.navigation a:last-child{
+    padding-right: 0;
+}
+*/
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    /* font-family: */
+    font-size: 16px;
+    transition: color .3s ease-in-out, bow-shadow .3s ease-in-out;
+}
+/* 1st Attempt */
+/*
+.underline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: aqua;
+    transition: width .4s;
+}
+
+.underline:hover::after {
+    width: 100%;
+    transition: width .4s;
+}
+/* 2nd Attempt */
+/*
+a.active,a:hover{
+    background: aqua;
+    transition: .4s;
+}
+
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: auto;
+    margin-right: 40px;
+}
+*/
+
+/* Third Attempt */ /* Working */
+/* Bounce animation, reference back to variable keyframes line 1 */
+/* 
+.navigation a li:hover {
+    cursor: pointer;
+    animation: bounce 1s;
+}
+*/
+
+/* Fourth Attempt */ /* Working */
+/* Skew Method */
+/* Waiting Icons, maybe a sign for me to check back later to link */
+
+.navigation a li:hover {
+    transform: skew(-10deg);
+    text-decoration: underline;
+    cursor: wait;
+
+}
+
+
+.article { grid-area: article; }
+
+body {
+    display: flex;
+    justify: center;
+    align-self: center;
+    min-height: 100vh;
+    background-color: var(--neutral);
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(100px,auto);
+    margin:40px;
+    grid-auto-flow: dense;
+}
+
+
+.container .box {
+    background-color: var(--dark);
+    padding: 20px;
+    margin: 5px;
+    display: grid;
+    font-size:20px;
+    place-items: center;
+    text-align: center;
+    color: #fff;
+    transition: 0.6s; 
+}
+
+.container .box:hover{
+    background-color: var(--light);
+    border-radius: 25px;
+    
+}
+
+.container .box img{
+    position: relative;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+/* QUESTION!!!! HOW DO I FIX IT BACK AFTER VISITED */
+
+.container .box a {
+    color: var(--lighter);
+    box-shadow: 0 5px 0 darkblue;
+    padding: 0.2em 0.2em;
+    position: relative;
+    text-transform: none;
+}
+
+.container .box a:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+.container .box a:active {
+    box-shadow: none;
+    top: 3px;
+}
+
+
+/*
+jQuery('a').clock(function(){
+    jQuery(this).toggleClass('active');
+});
+*/
+.container .box:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.container .box:nth-child(2) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.container .box:nth-child(4) {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.container .box:nth-child(5){
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+/* Article / Album Boxes */
+
+.album-box {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    padding: 45px;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "album-1 album-2 album-3"
+      "album-4 album-4 album-4";
+  }
+  
+.album-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+  .album-1 { grid-area: album-1; }
+  
+  .album-2 { grid-area: album-2; }
+  
+  .album-3 { grid-area: album-3; }
+  
+  .album-4 { grid-area: album-4; }
+  
+
+
+.footer { 
+    grid-area: footer; 
+    background: var(--dark);
+    height: auto;
+    width: auto;
+    padding-top: 30px;
+    color: white;
+}
+
+.footer-top span {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-top h3 {
+    font-size: 1.8rem;
+    font-weight: 700px;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-top p {
+    max-width: 870px;
+    margin: 10px auto;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    background-color: var(--darker);
+    text-align: center;
+    padding: 20px 0;
+    width: auto;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .50;
+    font-weight: 600px;
+}
