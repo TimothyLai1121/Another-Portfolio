@@ -11,4 +11,5 @@ This is Challenge 02 Redemption.
 * Of course, since I know you guys have to grade these challenges, I want you guys to have a chuckle looking at my page
 
 # Implemented from GitLab
+Hello
 
